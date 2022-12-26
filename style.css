@@ -1,0 +1,72 @@
+.page {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #454545;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+  }
+  header span {
+    font-size: 60px;
+    font-size: 2em;
+    color: #f16059;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .ball {
+  position: relative;
+  }
+  .ball img{
+    height: 100%;
+    max-width: 25em;
+  }
+  .answer {
+    color: rgb(252, 226, 212);
+    /*text-transform: uppercase;*/
+    position: absolute;
+    top: 8%;
+    
+    margin-left: 36%;
+    margin-right: 36%;
+    text-align: left;
+    font-size: 32px ;
+  }
+  
+  #questionButton {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-size: 1.875em;
+    color: #f8f8f8;
+    background-color: rgb(52, 61, 81);
+    border-radius: 15px;
+    border: none;
+    padding: .5em 1em;
+    width: 39%;
+    max-width: 15em;
+  }
+
+#questionButton:active{
+  transform: scale(0.9,0.9);
+}
+  
+  footer {
+    position: absolute;
+    bottom: 5px;
+    height: auto;
+    text-align: end;
+    font-size: 12px;
+    font-size: .75em;
+  }
