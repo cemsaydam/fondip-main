@@ -9,10 +9,10 @@ $(document).ready(function(){
       var randomAnswer = Math.floor(randomNumber * this.listofanswers.length);
       var answer = this.listofanswers[randomAnswer];
       
-      $("#8ball").effect( "shake", {times:2, distance:2000} );
+      $("#card").effect( "shake", {times:2, distance:2000} );
       $("#answer").text( answer );
       $("#answer").fadeIn(1000);
-      $("#8ball").attr("src", "https://cemsaydam.files.wordpress.com/2022/11/fondip.png");
+      /*$("ball").attr("src", "https://cemsaydam.files.wordpress.com/2022/11/fondip.png");*/
   
       console.log(question);
       console.log(answer);
@@ -22,7 +22,7 @@ $(document).ready(function(){
     var onClick = function()
     {
       $("#answer").hide();
-      $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png");
+      $("#card").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png");
       var question = magic8Ball.getAnswer(question);
       /*magic8Ball.getAnswer(question);*/
     };

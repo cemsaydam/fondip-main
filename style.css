@@ -1,6 +1,6 @@
 .page {
     max-width: 960px;
-    min-width: 300px;
+    /*min-width: 300px;*/
     margin: 0 auto;
   }
   
@@ -28,19 +28,34 @@
   
   .ball {
   position: relative;
+  
+  
   }
+
+  #card {
+    margin:auto;
+    background-color:rgb(52, 61, 81);
+    border-radius: 15px;
+    max-height: 500px;
+    max-width: 90%;
+      }
+
+
+    
   .ball img{
-    /*height: 60%;*/
-    max-width: 100em;
+    /*height: 20%;*/
+    max-width: 50em;
   }
   .answer {
     color: rgb(252, 226, 212);
+    padding: 10%;
+    max-width: 350px;
     /*text-transform: uppercase;*/
-    position: absolute;
-    top: 8%;
+    margin: auto;
+    position: relative;
     
-    margin-left: 36%;
-    margin-right: 36%;
+    /*margin-left: 36%;
+    margin-right: 36%;*/
     text-align: left;
     font-size: 32px ;
   }
@@ -49,13 +64,14 @@
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-size: 1.875em;
+    margin-top: 20px;
     color: #f8f8f8;
     background-color: rgb(52, 61, 81);
     border-radius: 15px;
     border: none;
     padding: .5em 1em;
-    width: 39%;
-    max-width: 15em;
+    width: 350px;
+    max-width: 90%;
   }
 
 #questionButton:active{
