@@ -36,7 +36,7 @@
     margin:auto;
     background-color:rgb(52, 61, 81);
     border-radius: 15px;
-    max-height: 500px;
+    max-height: 450px;
     max-width: 90%;
       }
 
@@ -79,10 +79,8 @@
 }
   
   footer {
-    position: absolute;
-    bottom: 5px;
-    height: auto;
-    text-align: end;
+    margin-bottom: 20px;
+
     font-size: 12px;
     font-size: .75em;
   }
