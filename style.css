@@ -36,17 +36,27 @@
     margin:auto;
     background-color:rgb(52, 61, 81);
     border-radius: 15px;
-    max-height: 450px;
+    max-height: 400px;
     max-width: 90%;
+    transition: transform .1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
       }
 
+   #card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
 
+   }   
+
+/*#slogan{
+  margin: auto;
+  padding-bottom: -50px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}*/
     
-  .ball img{
-    /*height: 20%;*/
-    max-width: 50em;
-  }
-  .answer {
+  #answer {
     color: rgb(252, 226, 212);
     padding: 10%;
     max-width: 350px;
@@ -57,7 +67,7 @@
     /*margin-left: 36%;
     margin-right: 36%;*/
     text-align: left;
-    font-size: 32px ;
+    font-size: 28px ;
   }
   
   #questionButton {
@@ -72,11 +82,14 @@
     padding: .5em 1em;
     width: 350px;
     max-width: 90%;
+    transition: transform .1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
 #questionButton:active{
   transform: scale(0.9,0.9);
 }
+
   
   footer {
     margin-bottom: 20px;
